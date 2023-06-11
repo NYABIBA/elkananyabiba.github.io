@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>jQuery syntax</title>
+    <link rel="stylesheet" type="text/css" href="JS/normalize.css">
+    <link rel="stylesheet" type="text/css" href="JS/styles.css">
+    <link>
+
+  </head>
+
+  <body>
+
+    <h1>jQuery Syntax</h1>
+    <p>Hello there! This is some text</p>
+
+    <div id="box">a box</div>
+    <div class="thing">a thing</div>
+
+    <button>A button!</button>
+
+
+          <!--Load CDN first-->
+    <script src="//code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+
+
+            <!--If the CDN fails then serve the local backup-->
+   <script>window.jQuery || document.write('<script src=JS/code.jquery.com_jquery-3.7.0.js><\/script>');</script> 
+
+
+   <script src="script.js"></script>
+
+
+   
+  
+  </body>
+</html>
